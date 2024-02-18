@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+     .matrix-cell {
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        display: inline-block;
+        margin: 2px;
+    }
+     
+    </style>
+</head>
+
+<body>
+
+    
+
+    </div>
+    <script>
+
+let n = Number(prompt("Digite um número: "));
+
+// Criando um array bidimensional (matriz) de n x n com divs HTML
+let kaio = new Array(n);
+for (let i = 0; i < n; i++) {
+    kaio[i] = new Array(n);
+}
+
+// Criando divs e adicionando-as ao documento
+for (let lin = 0; lin < n; lin++) {
+    for (let co = 0; co < n; co++) {
+        kaio[lin][co] = document.createElement("div");
+        kaio[lin][co].className = "matrix-cell";
+        document.body.appendChild(kaio[lin][co]);
+    }
+    document.body.appendChild(document.createElement("br"));
+}
+
+
+
+
+    </script>
+</body>
+
+</html>

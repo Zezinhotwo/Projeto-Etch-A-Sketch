@@ -5,7 +5,7 @@ Crie as divs usando JavaScript.16x16
 Use o flexbox para fazer os divs aparecerem como uma grade
 */
 const container = document.querySelector(".conteiner");
-let tamGrade = 50// Number(prompt("qual proporção você deseja EX'16' = 16X16 "));
+let tamGrade = 37// Number(prompt("qual proporção você deseja EX'16' = 16X16 "));
 if (tamGrade <= 100) {
 
     //Crai um arrei com o numero de Elementos digita do no prompt
@@ -52,7 +52,7 @@ if (tamGrade <= 100) {
 // de pinta o fundo de azul
     Grades.forEach(Grades => {
         Grades.addEventListener("mouseenter",(e)=>{
-            e.target.style.background="blue";
+            e.target.style.background="rgb(214, 214, 214)";
         })
     });
         

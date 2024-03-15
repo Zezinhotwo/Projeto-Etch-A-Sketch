@@ -13,12 +13,18 @@ body{
     align-items: center;
 }
 .conteiner {
-    background-color: green;
+    /* background-color: green; */
+    height: 29em;
+    width: 28.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .Grades {
-    height: 1em;
-    width: 1.5em;
+    height: 1.8em;
+    width: 1.8em;
     margin: 0px ;
     border: 0.5px solid black;
     display: inline-block;

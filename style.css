@@ -5,13 +5,52 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     height: 100vh;
     width: 100dvw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.modelo {
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 15px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: end;
+
+}
+
+.crtls {
+    margin-right: 50px;
+    height: 40.1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.controle1 {
+    background-color: rgb(240, 240, 240);
+    height: 25em;
+    width: 20em;
+    border-radius: 10px;
+}
+
+.controle {
+    background-color: aqua;
+    height: 10em;
+    width: 20em;
+    border-radius: 10px;
+
+    /* margin-right: 50px; */
+}
+
 .conteiner {
     /* background-color: green; */
     /* height: 29em; */
@@ -20,15 +59,15 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 .Grades {
     height: 0.8em;
     width: 0.8em;
-    margin: 0px ;
+    margin: 0px;
     border: 0.1px solid rgba(0, 0, 0, 0.24);
     display: inline-block;
-    
+
     transition: 500ms;
 }
